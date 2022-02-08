@@ -14,12 +14,13 @@ Table of Contents:
 
 Here are some areas I've documented on Liferay development.
 
-* [Document API Basics](https://learn.liferay.com/dxp/latest/en/content-authoring-and-management/documents-and-media/developer-guide/document-api-basics.html) - This tutorial and sample code shows how to invoke the REST API for Liferay's Document Library. Its downloadable example project demonstrates consuming the API using Java and cURL/HTTP.
+* [Document API Basics](https://learn.liferay.com/dxp/latest/en/content-authoring-and-management/documents-and-media/developer-guide/document-api-basics.html) - This tutorial and sample code shows how to invoke the REST API for Liferay's Document Library. Its downloadable example project demonstrates consuming the API using Java and cURL/HTTP. 
 
-* [Fundamentals](https://learn.liferay.com/dxp/latest/en/liferay-internals/fundamentals.html) - This section demonstrates creating projects, implementing services, using services, and more. Here are the leading articles:
-    * [Module Projects](https://learn.liferay.com/dxp/latest/en/liferay-internals/fundamentals/module-projects.html)
-    * [APIs as OSGi Services](https://learn.liferay.com/dxp/latest/en/liferay-internals/fundamentals/apis-as-osgi-services.html)
-    * [Using an OSGi Service](https://learn.liferay.com/dxp/latest/en/liferay-internals/fundamentals/using-an-osgi-service.html)
+* Core Frameworks - Here are a couple of key frameworks I documented.
+    * [Message Bus](https://learn.liferay.com/dxp/latest/en/building-applications/core-frameworks/message-bus.html) shows all the ways to use Liferay's Message Bus programatically.
+    * [Dependency Injection](https://help.liferay.com/hc/en-us/articles/360029045891-Introduction-to-Dependency-Injection) demonstrates different ways to inject Liferay components with object implementations at run time.
+
+* [Architecture](https://learn.liferay.com/dxp/latest/en/liferay-internals/architecture.html) - In this section, I use  text, diagrams, and examples to describe the platform's design and design benefits.
 
 * [Developing a Java Web Application](https://learn.liferay.com/dxp/latest/en/building-applications/developing-a-java-web-application.html) - In this section, I documented key Liferay DXP/Portal Java web application development approaches. Here are some of the approaches I wrote about.
     * [MVC Portlet](https://learn.liferay.com/dxp/latest/en/building-applications/developing-a-java-web-application/using-mvc.html). Here are the leading articles I wrote on MVC Portlet development:
@@ -27,13 +28,12 @@ Here are some areas I've documented on Liferay development.
         * [Rendering Views with MVC Portlet](https://learn.liferay.com/dxp/latest/en/building-applications/developing-a-java-web-application/using-mvc/rendering-views-with-mvc-portlet.html)
         * [Invoking Actions with MVC Portlet](https://learn.liferay.com/dxp/latest/en/building-applications/developing-a-java-web-application/using-mvc/invoking-actions-with-mvc-portlet.html)
     * [PortletMVC4Spring](https://help.liferay.com/hc/en-us/articles/360029850931-PortletMVC4Spring)
-    * [Bean Portlet](https://help.liferay.com/hc/en-us/articles/360028708752-Bean-Portlet)  
+    * [Bean Portlet](https://help.liferay.com/hc/en-us/articles/360028708752-Bean-Portlet) 
 
-* Core Frameworks - Here are a couple of key frameworks I documented.
-    * [Message Bus](https://learn.liferay.com/dxp/latest/en/building-applications/core-frameworks/message-bus.html) shows all the ways to use Liferay's Message Bus programatically.
-    * [Dependency Injection](https://help.liferay.com/hc/en-us/articles/360029045891-Introduction-to-Dependency-Injection) demonstrates different ways to inject Liferay components with object implementations at run time.
-
-* [Architecture](https://learn.liferay.com/dxp/latest/en/liferay-internals/architecture.html) - In this section, I use  text, diagrams, and examples to describe the platform's design and design benefits.
+* [Fundamentals](https://learn.liferay.com/dxp/latest/en/liferay-internals/fundamentals.html) - This section demonstrates creating projects, implementing services, using services, and more. Here are the leading articles:
+    * [Module Projects](https://learn.liferay.com/dxp/latest/en/liferay-internals/fundamentals/module-projects.html)
+    * [APIs as OSGi Services](https://learn.liferay.com/dxp/latest/en/liferay-internals/fundamentals/apis-as-osgi-services.html)
+    * [Using an OSGi Service](https://learn.liferay.com/dxp/latest/en/liferay-internals/fundamentals/using-an-osgi-service.html)
 
 ## Administrator Articles
 
@@ -61,7 +61,6 @@ I wrote all the [Installation and Upgrade](https://learn.liferay.com/dxp/latest/
 
 Here are some user articles I wrote for Liferay DXP's Collaboration applications:
 
-* [Introduction to Collaboration](https://help.liferay.com/hc/en-us/articles/360017876112-Introduction-to-Collaboration)
 * [Publishing Blogs](https://help.liferay.com/hc/en-us/articles/360018155771-Publishing-Blogs)
 * [Adding Files to the Document Library](https://help.liferay.com/hc/en-us/articles/360017876152-Adding-Files-to-a-Document-Library)
 * [Working Together with the Wiki](https://help.liferay.com/hc/en-us/articles/360018155811-Working-Together-with-the-Wiki)
