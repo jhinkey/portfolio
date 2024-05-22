@@ -8,7 +8,6 @@ Table of Contents:
 * [Administrator Articles](#administrator-articles)
 * [User Articles](#user-articles)
 * [Documentation Guidelines](#documentation-guidelines)
-* [Contribution Statistics](#contribution-statistics)
 
 ## Developer Articles
 
@@ -72,80 +71,3 @@ These internal documents I authored provide instruction on developing tutuorials
 * [Tutorial Code Guidelines](https://github.com/jhinkey/liferay-learn/blob/master/readme/TUTORIAL_CODE_GUIDELINES.md) - Describes how to create a Liferay development project.
 * [REST API Guidelines](https://github.com/jhinkey/liferay-learn/blob/master/readme/REST_API_PROJECT_GUIDELINES.md) - Demonstrates how to create scripts and classes that invoke REST API services.
 * [Adding Documentation Links to the Liferay UI](https://github.com/liferay/liferay-portal/blob/master/learn-resources/README.markdown) - This guide shows technical writers how to provide links to official documentation and shows developers how to use the links in the Liferay UI's JSP code.
-
-## Contribution Statistics
-
-I contributed articles and code examples to the [`liferay-learn`](https://github.com/liferay/liferay-learn) repository for Liferay DXP/Portal 7.2+ and the [`liferay-docs`](https://github.com/liferay/liferay-docs) repository for Liferay DXP/Portal versions 6.0 through 7.2.
-
-### Contributions to the `liferay-learn` Repository
-
-I contributed over 28% of the [`liferay-learn`](https://github.com/liferay/liferay-learn) repository Liferay DXP documentation commits.
-
-> Note that `d2021402cd7dae764436c9d4b1563a5fdac0bb13` was the last `liferay-learn` docs commit I authored at Liferay. See <https://github.com/liferay/liferay-learn/commit/d2021402cd7dae764436c9d4b1563a5fdac0bb13>.
-
-Calculations:
-
-1. Go to the DXP docs folder:
-
-    ```bash
-    $ cd liferay-learn\docs\dxp\latest\en
-    ```
-
-1. Count the total commits up to and including my last commit.
-
-    ```bash
-    $ git rev-list --count d2021402cd7dae764436c9d4b1563a5fdac0bb13
-    8782
-    ```
-
-1. Count my commits.
-
-    ```bash
-    $ git shortlog -sn --all d2021402cd7dae764436c9d4b1563a5fdac0bb13 | grep -i hinkey
-    1250  jhinkey
-    667  James Hinkey
-    544  Jim Hinkey
-    ```
-
-    Total `liferay-learn` commits by me: `1250 + 667 + 544 = 2461`
-
-1. Calculate the percentage of commits by me: `2461 / 8782 = .28 = 28%`
-
-Here is a listing of my commits: <https://github.com/liferay/liferay-learn/commits/master?author=james.hinkey@liferay.com>
-
-### Contributions to the `liferay-docs` Repository
-
-I contributed over 23% of the [`liferay-docs`](https://github.com/liferay/liferay-docs) repository Liferay DXP/Portal 7.2 (`master`) documentation commits.
-
-> Note that `7144674c38be1d1ecdad404f49c157f9064de25c` was the last `liferay-docs` commit I authored at Liferay. See <https://github.com/liferay/liferay-docs/commit/7144674c38be1d1ecdad404f49c157f9064de25c#diff-dbd3a49d0d906b4ed9216b73330d2fb080ef2f758c12f3885068222e5e17151c>.
-
-
-
-Calculations:
-
-1. Go to the DXP docs folder:
-
-    ```bash
-    $ cd liferay-docs/en/
-    ```
-
-1. Count the total commits up to and including my last commit.
-
-    ```bash
-    $ git rev-list --count 7144674c38be1d1ecdad404f49c157f9064de25c
-    20910
-    ```
-
-1. Count my commits.
-
-    ```bash
-    $ git shortlog -sn --all d2021402cd7dae764436c9d4b1563a5fdac0bb13 | grep -i hinkey
-
-    4797  Jim Hinkey
-    146  James Hinkey
-        46  jhinkey
-    ```
-
-    Total `liferay-docs` commits by me: 4989
-
-1. Calculate the percentage of commits by me: `4989 / 20910 = .23 = 23%`
