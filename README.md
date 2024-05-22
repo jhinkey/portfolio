@@ -4,12 +4,39 @@ Here are links to articles and sample code I've authored for a wide range of aud
 
 Table of Contents:
 
-* [Developer Articles](#developer-articles)
-* [Administrator Articles](#administrator-articles)
-* [User Articles](#user-articles)
-* [Documentation Guidelines](#documentation-guidelines)
+* [API Reference (IEX Cloud)](#api-preference-iex-cloud)
+* [How-To Guides (IEX Cloud)](#how-to-guides-iex-cloud)
+* [Guides and Concept Articles for Various Audiences (Liferay Portal)](#guides-and-concept-articles-for-various-audiences-liferay-portal)
 
-## Developer Articles
+    * [Developer Articles](#developer-articles)
+    * [Administrator Articles](#administrator-articles)
+    * [User Articles](#user-articles)
+
+* [Documentation Guideline Examples](#documentation-guideline-examples)
+
+## API Preference (IEX Cloud)
+
+The following conent demonstrate the API Reference articles I authored and site content I created.
+
+* [API Reference Home](https://iexcloud.io/docs/) introduces the IEX Cloud API and uses instructions and animated GIFs to demonstrate using it. 
+
+* [Stock Quote](https://iexcloud.io/docs/core/QUOTE) specifies the Stock Quote endpoint including its HTTP method signature, path parameters, query parameters, and response attributes. It also includes example HTTP request URLs and links to the data bundle for purchasing access to the endpoint.
+
+* [Basics Section](https://iexcloud.io/docs/api-basics) provides essentials on using the API and links to important information on error codes, versioning, deprecation, and more.
+
+## How-To Guides (IEX Cloud)
+
+Here are links to one of my tutorials and to the Guides site I created from the ground up.
+
+* [Query Financial Data](https://iexcloud.io/documentation/using-core-data/query-core-data.html) demonstrates how to use the data API and refine queries to get the data you need.
+
+* [Guides Landing Page](https://iexcloud.io/documentation/index.html) promotes the most important topics to get users where the need to go fast and also links to the API Reference and videos channel.
+
+* [Getting Started with Financial Data](https://iexcloud.io/documentation/using-core-data.html) is the leading article in the documentation set. It introduces users to IEX Cloud financial data, shows data examples, and points users to content on various data types and how to use them. 
+
+## Guides and Concept Articles for Various Audiences (Liferay Portal)
+
+### Developer Articles
 
 Here are some areas I've documented on Liferay development.
 
@@ -34,7 +61,7 @@ Here are some areas I've documented on Liferay development.
     * [APIs as OSGi Services](https://learn.liferay.com/dxp/latest/en/liferay-internals/fundamentals/apis-as-osgi-services.html)
     * [Using an OSGi Service](https://learn.liferay.com/dxp/latest/en/liferay-internals/fundamentals/using-an-osgi-service.html)
 
-## Administrator Articles
+### Administrator Articles
 
 I wrote all the [Installation and Upgrade](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades.html) content except [Securing Liferay](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/securing-liferay.html). Here are some highlights:
 
@@ -56,7 +83,7 @@ I wrote all the [Installation and Upgrade](https://learn.liferay.com/dxp/latest/
 * [Upgrading Liferay](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/upgrading-liferay.html)
 * [Reference](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/upgrading-liferay/reference.html)
 
-## User Articles
+### User Articles
 
 Here are some user articles I wrote for Liferay DXP's Collaboration applications:
 
@@ -64,7 +91,7 @@ Here are some user articles I wrote for Liferay DXP's Collaboration applications
 * [Adding Files to the Document Library](https://help.liferay.com/hc/en-us/articles/360017876152-Adding-Files-to-a-Document-Library)
 * [Working Together with the Wiki](https://help.liferay.com/hc/en-us/articles/360018155811-Working-Together-with-the-Wiki)
 
-## Documentation Guidelines
+## Documentation Guideline Examples
 
 These internal documents I authored provide instruction on developing tutuorials and sample code, and linking the product to published articles.
 
