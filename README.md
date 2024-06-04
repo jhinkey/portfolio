@@ -4,19 +4,30 @@ Here are links to articles and sample code I've authored for a wide range of aud
 
 Table of Contents:
 
-* [API Reference (IEX Cloud)](#api-preference-iex-cloud)
-* [How-To Guides (IEX Cloud)](#how-to-guides-iex-cloud)
-* [Guides and Concept Articles for Various Audiences (Liferay Portal)](#guides-and-concept-articles-for-various-audiences-liferay-portal)
+* [How-To Guides](#how-to-guides)
+* [API Reference](#api-reference)
+* [Concept Articles](#concept-articles)
+* [Home Pages and Doc Hierarchies](#home-pages-and-doc-hierarchies)
+* [Misc Articles](#misc-articles)
+* [Internal Guideline Examples](#internal-guideline-examples)
 
-    * [Developer Articles](#developer-articles)
-    * [Administrator Articles](#administrator-articles)
-    * [User Articles](#user-articles)
+## How-To Guides
 
-* [Documentation Guideline Examples](#documentation-guideline-examples)
+I created the following articles to help all kinds of audiences complete tasks.
 
-## API Preference (IEX Cloud)
+* [Running Liferay for the First Time](https://learn.liferay.com/w/dxp/installation-and-upgrades/installing-liferay/running-liferay-for-the-first-time) is as easy as following a few easy steps.
 
-The following conent demonstrate the API Reference articles I authored and site content I created.
+* [Using Liferay Docker Images](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/installing-liferay/using-liferay-docker-images.html) demonstrates starting, monitoring, and stopping Liferay Portal via Docker from the command line.
+
+* [Using Asynchronous Messaging](https://learn.liferay.com/w/dxp/liferay-development/core-frameworks/message-bus/using-asynchronous-messaging) is easy to implement. Here we'll deploy an example project and examine its components.
+
+* [Query Financial Data](https://iexcloud.io/documentation/using-core-data/query-core-data.html) using the IEX Cloud Data API; then adjust your queries to further filter on the exact data you want.
+
+* [Manage Users](https://iexcloud.io/documentation/administration/managing-users.html) in IEX Cloud via the Console.
+
+## API Reference
+
+These articles show the content I created for getting started with and using the IEX Cloud API.
 
 * [API Reference Home](https://iexcloud.io/docs/) introduces the IEX Cloud API and uses instructions and animated GIFs to demonstrate using it. 
 
@@ -24,77 +35,44 @@ The following conent demonstrate the API Reference articles I authored and site 
 
 * [Basics Section](https://iexcloud.io/docs/api-basics) provides essentials on using the API and links to important information on error codes, versioning, deprecation, and more.
 
-## How-To Guides (IEX Cloud)
+## Concept Articles
 
-Here are links to one of my tutorials and to the Guides site I created from the ground up.
+These articles I wrote helped people understand some non-trivial topics.
 
-* [Query Financial Data](https://iexcloud.io/documentation/using-core-data/query-core-data.html) demonstrates how to use the data API and refine queries to get the data you need.
+* [Message Bus](https://learn.liferay.com/dxp/latest/en/building-applications/core-frameworks/message-bus.html) introduces programatic communication from message Senders to message Listeners via Destinations; also it introduces asynchronous and synchronous messaging approaches.
 
-* [Guides Landing Page](https://iexcloud.io/documentation/index.html) promotes the most important topics to get users where the need to go fast and also links to the API Reference and videos channel.
+* [Architecture](https://learn.liferay.com/dxp/latest/en/liferay-internals/architecture.html) uses  text, diagrams, and examples to explain Liferay Portal's design and benefits.
 
-* [Getting Started with Financial Data](https://iexcloud.io/documentation/using-core-data.html) is the leading article in the documentation set. It introduces users to IEX Cloud financial data, shows data examples, and points users to content on various data types and how to use them. 
+## Home Pages and Doc Hierarchies
 
-## Guides and Concept Articles for Various Audiences (Liferay Portal)
+The following pages demonstrate how I've organized and presented initial content to users.
 
-### Developer Articles
+### IEX Cloud Guides
 
-Here are some areas I've documented on Liferay development.
+* [Guides Home Page](https://iexcloud.io/documentation/index.html) promotes the most important IEX Cloud topics to get users where the need to go fast.
 
-* [Document API Basics](https://learn.liferay.com/dxp/latest/en/content-authoring-and-management/documents-and-media/developer-guide/document-api-basics.html) - This tutorial and sample code shows how to invoke the REST API for Liferay's Document Library. Its downloadable example project demonstrates consuming the API using Java and cURL/HTTP. 
+* [Leading Article and Hierarchy](https://iexcloud.io/documentation/using-core-data.html) - The leading article introduces the IEX Cloud financial data product, shows data examples, and references content on using various financial data. The left nav provides a hierarchy of articles on using the Financial Data product, developing with it, and administering accounts.
 
-* Core Frameworks - Here are a couple of key frameworks I documented.
-    * [Message Bus](https://learn.liferay.com/dxp/latest/en/building-applications/core-frameworks/message-bus.html) shows all the ways to use Liferay's Message Bus programatically.
-    * [Dependency Injection](https://help.liferay.com/hc/en-us/articles/360029045891-Introduction-to-Dependency-Injection) demonstrates different ways to inject Liferay components with object implementations at run time.
+### IEX Cloud API Reference
 
-* [Architecture](https://learn.liferay.com/dxp/latest/en/liferay-internals/architecture.html) - In this section, I use  text, diagrams, and examples to describe the platform's design and design benefits.
+* [API Reference Home](https://iexcloud.io/docs/) introduces the IEX Cloud API, quickstart instructions, and shows animated GIFs that demonstrate two ways of calling the API. 
 
-* [Developing a Java Web Application](https://learn.liferay.com/dxp/latest/en/building-applications/developing-a-java-web-application.html) - In this section, I documented key Liferay DXP/Portal Java web application development approaches. Here are some of the approaches I wrote about.
-    * [MVC Portlet](https://learn.liferay.com/dxp/latest/en/building-applications/developing-a-java-web-application/using-mvc.html). Here are the leading articles I wrote on MVC Portlet development:
-        * [Using a JSP and MVC Portlet](https://learn.liferay.com/dxp/latest/en/building-applications/developing-a-java-web-application/using-mvc/using-a-jsp-and-mvc-portlet.html)
-        * [Rendering Views with MVC Portlet](https://learn.liferay.com/dxp/latest/en/building-applications/developing-a-java-web-application/using-mvc/rendering-views-with-mvc-portlet.html)
-        * [Invoking Actions with MVC Portlet](https://learn.liferay.com/dxp/latest/en/building-applications/developing-a-java-web-application/using-mvc/invoking-actions-with-mvc-portlet.html)
-    * [PortletMVC4Spring](https://help.liferay.com/hc/en-us/articles/360029850931-PortletMVC4Spring)
-    * [Bean Portlet](https://help.liferay.com/hc/en-us/articles/360028708752-Bean-Portlet) 
+## Misc Articles
 
-* [Fundamentals](https://learn.liferay.com/dxp/latest/en/liferay-internals/fundamentals.html) - This section demonstrates creating projects, implementing services, using services, and more. Here are the leading articles:
-    * [Module Projects](https://learn.liferay.com/dxp/latest/en/liferay-internals/fundamentals/module-projects.html)
-    * [APIs as OSGi Services](https://learn.liferay.com/dxp/latest/en/liferay-internals/fundamentals/apis-as-osgi-services.html)
-    * [Using an OSGi Service](https://learn.liferay.com/dxp/latest/en/liferay-internals/fundamentals/using-an-osgi-service.html)
+* [Changelog](https://iexcloud.io/documentation/changelog.html) entries explain recent changes, why they were made, and how they affect IEX Cloud customers.
 
-### Administrator Articles
+* [FAQs](https://iexcloud.io/documentation/faqs.html) for IEX Cloud.
 
-I wrote all the [Installation and Upgrade](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades.html) content except [Securing Liferay](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/securing-liferay.html). Here are some highlights:
+* [Glossary](https://iexcloud.io/documentation/reference/glossary.html) for IEX Cloud.
 
-* [Installing Liferay](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/installing-liferay.html)
-    * [Installing a Liferay Tomcat Bundle](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/installing-liferay/installing-a-liferay-tomcat-bundle.html)
-    * [Using Liferay Docker Images](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/installing-liferay/using-liferay-docker-images.html)
-    * [Installing Liferay on an Application Server](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/installing-liferay/installing-liferay-on-an-application-server.html)
-* [Setting Up Liferay](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/setting-up-liferay.html)
-    * [Activating Liferay DXP](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/setting-up-liferay/activating-liferay-dxp.html)
-    * [Instance Localization](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/setting-up-liferay/initial-instance-localization.html)
-    * [File Storage](https://learn.liferay.com/dxp/latest/en/system-administration/file-storage.html)
-    * [Installing and Managing Apps](https://learn.liferay.com/dxp/latest/en/system-administration/installing-and-managing-apps.html)
-    * [Tuning the JVM](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/setting-up-liferay/tuning-your-jvm.html)
-    * [Clustering for High Availability](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/setting-up-liferay/clustering-for-high-availability.html)
-* [Maintaining a Liferay Installation](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/maintaining-a-liferay-installation.html)
-    * [Backing Up](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/maintaining-a-liferay-installation/backing-up.html)
-    * [Updating Liferay](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/maintaining-a-liferay-installation/updating-liferay.html)
-    * [Maintaining Clustered Installations](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/maintaining-a-liferay-installation/maintaining-clustered-installations.html)
-* [Upgrading Liferay](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/upgrading-liferay.html)
-* [Reference](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/upgrading-liferay/reference.html)
-
-### User Articles
-
-Here are some user articles I wrote for Liferay DXP's Collaboration applications:
-
-* [Publishing Blogs](https://help.liferay.com/hc/en-us/articles/360018155771-Publishing-Blogs)
-* [Adding Files to the Document Library](https://help.liferay.com/hc/en-us/articles/360017876152-Adding-Files-to-a-Document-Library)
-* [Working Together with the Wiki](https://help.liferay.com/hc/en-us/articles/360018155811-Working-Together-with-the-Wiki)
-
-## Documentation Guideline Examples
+## Internal Guideline Examples
 
 These internal documents I authored provide instruction on developing tutuorials and sample code, and linking the product to published articles.
 
 * [Tutorial Code Guidelines](https://github.com/jhinkey/liferay-learn/blob/master/readme/TUTORIAL_CODE_GUIDELINES.md) - Describes how to create a Liferay development project.
 * [REST API Guidelines](https://github.com/jhinkey/liferay-learn/blob/master/readme/REST_API_PROJECT_GUIDELINES.md) - Demonstrates how to create scripts and classes that invoke REST API services.
 * [Adding Documentation Links to the Liferay UI](https://github.com/liferay/liferay-portal/blob/master/learn-resources/README.markdown) - This guide shows technical writers how to provide links to official documentation and shows developers how to use the links in the Liferay UI's JSP code.
+
+## And More Articles
+
+For more articles I wrote, including guides for system administrators, developers, and users, see [Additional Articles](./additional-articles.md)
