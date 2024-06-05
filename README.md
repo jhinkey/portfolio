@@ -4,6 +4,7 @@ Here are links to articles and sample code I've authored for a wide range of aud
 
 Table of Contents:
 
+* [Product / Feature Introduction](#product-feature-introduction)
 * [How-To Guides](#how-to-guides)
 * [API Reference](#api-reference)
 * [Concept Articles](#concept-articles)
@@ -11,19 +12,39 @@ Table of Contents:
 * [Misc Articles](#misc-articles)
 * [Internal Guideline Examples](#internal-guideline-examples)
 
+## Product / Feature Introduction
+
+Below is a product introduction article.
+
+* [What is Apperate?](https://github.com/iexcloud/docs/blob/main/source/getting-started/what-is-iex-cloud-apperate.md) describes the IEX Cloud Apperate product and how it helps you integrate data for financial tech (fintech) applications.
+
 ## How-To Guides
 
 I created the following articles to help all kinds of audiences complete tasks.
 
-* [Running Liferay for the First Time](https://learn.liferay.com/w/dxp/installation-and-upgrades/installing-liferay/running-liferay-for-the-first-time) is as easy as following a few easy steps.
+### For Developers
 
-* [Using Liferay Docker Images](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/installing-liferay/using-liferay-docker-images.html) demonstrates starting, monitoring, and stopping Liferay Portal via Docker from the command line.
+* [Write and Read Data](https://github.com/iexcloud/docs/blob/main/source/getting-started/write-and-read-data.md) to Apperate using this JavaScript client library.
 
 * [Using Asynchronous Messaging](https://learn.liferay.com/w/dxp/liferay-development/core-frameworks/message-bus/using-asynchronous-messaging) is easy to implement. Here we'll deploy an example project and examine its components.
 
-* [Query Financial Data](https://iexcloud.io/documentation/using-core-data/query-core-data.html) using the IEX Cloud Data API; then adjust your queries to further filter on the exact data you want.
+* [Query the Financial Data API](https://iexcloud.io/documentation/using-core-data/query-core-data.html) using the IEX Cloud Data API; then adjust your queries to further filter on the exact data you want.
+
+### For Users
+
+* [Get Started with Apperate](https://github.com/iexcloud/docs/blob/main/source/getting-started/getting-started-with-apperate.md) guides the user through creating a workspace, generating a dataset, and viewing the dataset's auto-generated API reference page.  
 
 * [Manage Users](https://iexcloud.io/documentation/administration/managing-users.html) in IEX Cloud via the Console.
+
+* [Load Data from an AWS S3 Bucket](https://github.com/iexcloud/docs/blob/main/source/load-data/loading-data-from-aws-s3.md) to Apperate for your fintech application.
+
+* [Design a Schema](https://github.com/iexcloud/docs/blob/main/source/managing-your-data/defining-schemas/define-a-schema.md) for your fintech application.
+
+* [Running Liferay for the First Time](https://learn.liferay.com/w/dxp/installation-and-upgrades/installing-liferay/running-liferay-for-the-first-time) is as easy as following a few easy steps.
+
+### For System Administrators
+
+* [Using Liferay Docker Images](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/installing-liferay/using-liferay-docker-images.html) demonstrates starting, monitoring, and stopping Liferay Portal via Docker from the command line.
 
 ## API Reference
 
