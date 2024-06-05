@@ -66,17 +66,13 @@ These articles I wrote helped people understand some non-trivial topics.
 
 ## Home Pages and Doc Hierarchies
 
-The following pages demonstrate how I've organized and presented initial content to users.
+The following home / landing pages demonstrate how I've organized and presented initial product content.
 
-### IEX Cloud Guides
-
-* [Guides Home Page](https://iexcloud.io/documentation/index.html) promotes the most important IEX Cloud topics to get users where the need to go fast.
+* [Documentation Home Page](https://iexcloud.io/documentation/index.html) promotes the most important IEX Cloud topics to get users where the need to go fast.
 
 * [Leading Article and Hierarchy](https://iexcloud.io/documentation/using-core-data.html) - The leading article introduces the IEX Cloud financial data product, shows data examples, and references content on using various financial data. The left nav provides a hierarchy of articles on using the Financial Data product, developing with it, and administering accounts.
 
-### IEX Cloud API Reference
-
-* [API Reference Home](https://iexcloud.io/docs/) introduces the IEX Cloud API, quickstart instructions, and shows animated GIFs that demonstrate two ways of calling the API. 
+* [API Reference Home and Hierarchy](https://iexcloud.io/docs/) introduces the IEX Cloud API, quickstart instructions, and shows animated GIFs that demonstrate two ways of calling the API. 
 
 ## Misc Articles
 
